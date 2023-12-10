@@ -1,8 +1,7 @@
 import argparse
 from conf.models import Teacher, Student, Group, Subject, Grade
 from conf.db import session
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
+
 
 import configparser
 import pathlib
